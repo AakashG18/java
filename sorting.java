@@ -4,12 +4,9 @@ public class sorting{
   static int[] a = { 13, 7, 6, 45, 21, 9, 2, 100,100 };
    static int n = a.length;
   public static void main(String[] args) {
-    Arrays.sort(a);  
+    Arrays.sort(a);
     n = removeduplicates(a, n);
-    for (int i = 0; i <n; i++){
-      System.out.println(a[i]);
-      }
-    }
+    System.out.println(a[n-1]);
     public static int removeduplicates(int a[], int n)
     {
         if (n == 0 || n == 1) {
