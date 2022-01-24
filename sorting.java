@@ -6,7 +6,10 @@ public class sorting{
   public static void main(String[] args) {
     Arrays.sort(a);
     n = removeduplicates(a, n);
-    System.out.println(a[n-1]);
+    for (int i = 0; i <n; i++){
+      System.out.println(a[i]);
+      }
+    }
     public static int removeduplicates(int a[], int n)
     {
         if (n == 0 || n == 1) {
